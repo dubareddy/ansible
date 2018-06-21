@@ -115,6 +115,12 @@ On RHEL and CentOS:
 
 RPMs for RHEL 7 are available from the `Ansible Engine repository <https://access.redhat.com/articles/3174981>`_.
 
+or
+On CentOs7:
+   $ wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   $ rpm -ivh epel-release-latest-7.noarch.rpm
+   $ yum install ansible -y  (Ansible 2.5.5 will be installed, verify with $ ansible --version)
+
 To enable the Ansible Engine repository, run the following command:
 
 .. code-block:: bash
